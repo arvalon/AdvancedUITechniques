@@ -2,6 +2,7 @@ package ru.arvalon.advanceduitechniques;
 
 import androidx.appcompat.app.AppCompatActivity;
 import ru.arvalon.advanceduitechniques.customfont.CustomFontActivity;
+import ru.arvalon.advanceduitechniques.horizontaliconview.HorizontalIconViewActivity;
 import ru.arvalon.advanceduitechniques.viewholderpattern.ViewHolderPatternActivity;
 
 import android.content.Intent;
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.span_button).setOnClickListener(v ->
                 startActivity(new Intent(this,SpanActivity.class)));
 
-        /*findViewById(R.id.).setOnClickListener(v ->
-                startActivity(new Intent(this,)));*/
+        findViewById(R.id.horizontal_icon_view_button).setOnClickListener(v ->
+                startActivity(new Intent(this, HorizontalIconViewActivity.class)));
     }
 }
