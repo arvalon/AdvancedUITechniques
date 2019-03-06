@@ -28,6 +28,7 @@ public class OverdraftActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_overdraft);
+        setTitle("Overdraft example");
 
         final ListView listView = findViewById(R.id.list);
 

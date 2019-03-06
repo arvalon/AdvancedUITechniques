@@ -17,8 +17,8 @@ public class HorizontalIconViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_horizontaliconview);
 
-        // Get a List of Drawables
-        final Resources res = getResources();
+        setTitle("Horizontal Icon View");
+
         final List<Drawable> list = new ArrayList<>();
         list.add(getDrawable(R.drawable.a));
         list.add(getDrawable(R.drawable.b));

@@ -23,11 +23,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".OverdraftActivity" />
-        <activity android:name=".viewholderpattern.ViewHolderPatternActivity" />
-        <activity android:name=".SpanActivity"/>
-        <activity android:name=".customfont.CustomFontActivity"/>
-        <activity android:name=".horizontaliconview.HorizontalIconViewActivity"/>
+        <activity android:name=".OverdraftActivity" android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".viewholderpattern.ViewHolderPatternActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".SpanActivity" android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".customfont.CustomFontActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".horizontaliconview.HorizontalIconViewActivity"
+            android:parentActivityName=".MainActivity"/>
 
     </application>
 

@@ -17,6 +17,7 @@ public class SpanActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_span);
+        setTitle("Span example");
 
         final SpannableStringBuilder ssb = new SpannableStringBuilder();
         final int flag = Spannable.SPAN_EXCLUSIVE_EXCLUSIVE;

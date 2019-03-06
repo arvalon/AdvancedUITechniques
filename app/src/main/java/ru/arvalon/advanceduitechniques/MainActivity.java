@@ -8,8 +8,6 @@ import ru.arvalon.advanceduitechniques.viewholderpattern.ViewHolderPatternActivi
 import android.content.Intent;
 import android.os.Bundle;
 
-// TODO: 06.03.2019 Toolbar back button on non-main activity
-
 /**
  * Advanced UI Techniques
  * @author arvalon
