@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AdvancedUTechniques</string>
+
+    <string name="application_icon">Application icon</string>
+    <string name="overdraft_button">Overdraft</string>
+    <string name="view_holder_button">View Holder Pattern</string>
+    <string name="custom_font_button">Custom Font</string>
+    <string name="span_button">Span</string>
+    <string name="horizontal_icon_view_button">Horizontal Icon View</string>
+</resources>
