@@ -1,6 +1,7 @@
 package ru.arvalon.advanceduitechniques;
 
 import androidx.appcompat.app.AppCompatActivity;
+import ru.arvalon.advanceduitechniques.viewholderpattern.ViewHolderPatternActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.overdraft_button).setOnClickListener(v ->
                 startActivity(new Intent(this,OverdraftActivity.class)));
 
-        /*findViewById(R.id.).setOnClickListener(v ->
-                startActivity(new Intent(this,)));
+        findViewById(R.id.view_holder_button).setOnClickListener(v ->
+                startActivity(new Intent(this, ViewHolderPatternActivity.class)));
 
-        findViewById(R.id.).setOnClickListener(v ->
+        /*findViewById(R.id.).setOnClickListener(v ->
                 startActivity(new Intent(this,)));
 
         findViewById(R.id.).setOnClickListener(v ->
