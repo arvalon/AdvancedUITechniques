@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.custom_font_button).setOnClickListener(v ->
                 startActivity(new Intent(this, CustomFontActivity.class)));
 
-        /*findViewById(R.id.).setOnClickListener(v ->
-                startActivity(new Intent(this,)));
+        findViewById(R.id.span_button).setOnClickListener(v ->
+                startActivity(new Intent(this,SpanActivity.class)));
 
-        findViewById(R.id.).setOnClickListener(v ->
+        /*findViewById(R.id.).setOnClickListener(v ->
                 startActivity(new Intent(this,)));*/
     }
 }
