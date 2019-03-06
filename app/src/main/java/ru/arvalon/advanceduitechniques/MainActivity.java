@@ -1,6 +1,7 @@
 package ru.arvalon.advanceduitechniques;
 
 import androidx.appcompat.app.AppCompatActivity;
+import ru.arvalon.advanceduitechniques.customfont.CustomFontActivity;
 import ru.arvalon.advanceduitechniques.viewholderpattern.ViewHolderPatternActivity;
 
 import android.content.Intent;
@@ -25,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.view_holder_button).setOnClickListener(v ->
                 startActivity(new Intent(this, ViewHolderPatternActivity.class)));
 
-        /*findViewById(R.id.).setOnClickListener(v ->
-                startActivity(new Intent(this,)));
+        findViewById(R.id.custom_font_button).setOnClickListener(v ->
+                startActivity(new Intent(this, CustomFontActivity.class)));
 
-        findViewById(R.id.).setOnClickListener(v ->
+        /*findViewById(R.id.).setOnClickListener(v ->
                 startActivity(new Intent(this,)));
 
         findViewById(R.id.).setOnClickListener(v ->

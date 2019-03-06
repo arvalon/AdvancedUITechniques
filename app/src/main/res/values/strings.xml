@@ -7,4 +7,6 @@
     <string name="custom_font_button">Custom Font</string>
     <string name="span_button">Span</string>
     <string name="horizontal_icon_view_button">Horizontal Icon View</string>
+
+    <string name="roboto_thin">Roboto Thin</string>
 </resources>
